@@ -1,22 +1,23 @@
 {
 	"compilerOptions": {
 		"outDir": "build",
-		"target": "es5",
+		"target": "es2015",
 		"module": "esnext",
 		"strict": false,
 		"moduleResolution": "node",
 		"lib": [
-			"es5",
+			"es2015",
 			"dom"
 		],
 		"declaration": true,
 		"strictPropertyInitialization": false,
 	},
 	"include": [
-		"src/**/*"
+		"src/**/*", 
+		"global.d.ts"	
 	],
 	"exclude": [
 		"node_modules",
-		"src/test/**/*"
+		"src/test/**/*",
 	]
 }

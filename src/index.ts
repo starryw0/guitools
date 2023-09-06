@@ -1,4 +1,5 @@
-export function add(a:number, b:number) : number {
-  return a + b;
-}
+import { GuiTools } from "./panel/GuiTools";
 
+export function getGuiTools(): GuiTools {
+	return GuiTools.getInstance();
+}

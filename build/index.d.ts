@@ -1,1 +1,2 @@
-export declare function add(a: number, b: number): number;
+import { GuiTools } from "./panel/GuiTools";
+export declare function getGuiTools(): GuiTools;
